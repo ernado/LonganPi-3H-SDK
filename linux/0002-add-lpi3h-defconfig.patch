@@ -1174,20 +1174,20 @@ index 000000000000..9d28a94ce4bd
 +CONFIG_NET_CORE=y
 +# CONFIG_BONDING is not set
 +# CONFIG_DUMMY is not set
-+# CONFIG_WIREGUARD is not set
+CONFIG_WIREGUARD=y
 +# CONFIG_EQUALIZER is not set
 +# CONFIG_NET_TEAM is not set
-+# CONFIG_MACVLAN is not set
-+# CONFIG_IPVLAN is not set
++CONFIG_MACVLAN=y
++CONFIG_IPVLAN=y
 +# CONFIG_VXLAN is not set
 +# CONFIG_GENEVE is not set
 +# CONFIG_BAREUDP is not set
 +# CONFIG_GTP is not set
 +# CONFIG_MACSEC is not set
 +# CONFIG_NETCONSOLE is not set
-+# CONFIG_TUN is not set
++CONFIG_TUN=y
 +# CONFIG_TUN_VNET_CROSS_LE is not set
-+# CONFIG_VETH is not set
++CONFIG_VETH=y
 +# CONFIG_NLMON is not set
 +CONFIG_ETHERNET=y
 +# CONFIG_NET_VENDOR_ALACRITECH is not set
