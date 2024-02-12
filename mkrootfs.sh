@@ -11,9 +11,9 @@ set -eux
 
 genrootfs() {
 echo "
-deb https://mirrors.bfsu.edu.cn/debian/ testing main contrib non-free non-free-firmware
-deb https://mirrors.bfsu.edu.cn/debian/ testing-updates main contrib non-free non-free-firmware
-deb https://mirrors.bfsu.edu.cn/debian/ testing-backports main contrib non-free non-free-firmware
+deb https://mirror.yandex.ru/debian/ testing main contrib non-free non-free-firmware
+deb https://mirror.yandex.ru/debian/ testing-updates main contrib non-free non-free-firmware
+deb https://mirror.yandex.ru/debian/ testing-backports main contrib non-free non-free-firmware
 deb https://mirrors.bfsu.edu.cn/debian-security/ testing-security main contrib non-free non-free-firmware
 " | $MMDEBSTRAP --architectures=arm64 -v -d \
 	--include="ca-certificates locales dosfstools binutils file \
